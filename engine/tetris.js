@@ -6,7 +6,6 @@ import Login from "./login.js";
 window.addEventListener('load', () => {
 
 
-    login.remove();
     let model = new Model();
     let view = new View(model)
     let controller = new Controller(model, view)
